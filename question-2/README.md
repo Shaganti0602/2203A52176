@@ -1,35 +1,22 @@
-# Stock Price Aggregation Frontend Web Application
+# Stock Price Aggregation Web App
 
-This is a responsive React frontend web application that delivers real-time analytical insights for stock prices.
+![Stock Page Screenshot](./Screenshot%202025-06-12%20at%2011.54.45%E2%80%AFAM.png)
+*Stock Page*
+
+![Correlation Heatmap Screenshot](./Screenshot%202025-06-12%20at%2011.54.56%E2%80%AFAM.png)
+*Correlation Heatmap*
+
+A simple React app to visualize stock prices and correlations using Material UI.
 
 ## Features
-- **Stock Page**: Chart the prices of a stock over a selectable time frame, with the average price highlighted. Users can select different time intervals (last m minutes).
-- **Correlation Heatmap**: View a heatmap showing the correlation between stocks over the last 'm' minutes, with a color legend and tooltips for details.
-- **Material UI**: The UI is built using Material UI for a modern, responsive experience.
-- **API Ready**: Easily connect to your backend for real stock and correlation data (see `src/components/api.js`).
+- Stock price chart with average line
+- Correlation heatmap
+- Responsive Material UI design
 
-## Getting Started
-
-1. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-2. **Start the development server:**
-   ```bash
-   npm start
-   ```
-3. **Open your browser:**
-   Visit [http://localhost:3000](http://localhost:3000)
-
-## Project Structure
-- `src/components/StockPage.js`: Stock chart and controls
-- `src/components/CorrelationHeatmap.js`: Correlation heatmap visualization
-- `src/components/api.js`: API utility functions (replace with your backend endpoints)
-
-## Customization
-- Replace mock data and API placeholders with your backend endpoints for real-time data.
-- Extend the UI as needed for additional analytics or features.
+## Usage
+1. Install dependencies: `npm install`
+2. Start the app: `npm start`
+3. Open [http://localhost:3000](http://localhost:3000)
 
 ---
-
-*Developed as per the provided requirements for a stock price aggregation frontend web application.* 
+*Replace mock data with your backend for real data.* 
